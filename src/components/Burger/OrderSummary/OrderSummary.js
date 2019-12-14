@@ -3,6 +3,7 @@ import Auxiliary from '../../../hoc/Auxiliary';
 import Button from '../../UI/Button/Button';
 
 class OrderSummary extends Component {
+    // Can be functional component, componentDidUpdate() for debugging purposes
     componentDidUpdate() {
         console.log('[OrderSummary] WillUpdate');
     }
